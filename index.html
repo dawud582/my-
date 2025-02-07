@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dawud's Life</title>
+    <link href="stylesheets/mystyle.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>ለሙሃመድ የተሰራች ቀለል ያለች </h1>
+    </header>
+
+    <div class="container">
+        <button class="section-btn" onclick="toggleSection('about')">About Me</button>
+        <div class="section-content" id="about">
+            <p>Hello! My name is Dawud. I'm an electrical engineering student specializing in communication systems. I also have a passion for painting, interior design, and web development.</p>
+            <img src="images/sufiyan.jpg" alt="muhabaw ">
+        </div>
+
+        <button class="section-btn" onclick="toggleSection('interests')">My Interests</button>
+        <div class="section-content" id="interests">
+            <ul>
+                <li>Electrical Communication Systems</li>
+                <li>House & Office Painting</li>
+                <li>Interior Design</li>
+                <li>Web Development</li>
+
+                <li>Learning AI & Telecommunications</li>
+            </ul>
+        </div>
+
+        <button class="section-btn" onclick="toggleSection('goals')">My Goals</button>
+        <div class="section-content" id="goals">
+            <p>I plan to graduate in 2025 and start my own painting company, including paint fabrication. I also want to improve my web development skills and explore new technologies.</p>
+        </div>
+
+        <button class="section-btn" onclick="toggleSection('fun-fact')">Fun Fact</button>
+        <div class="section-content" id="fun-fact">
+            <p>I'm a big fan of this sitcoms
+              <ul>
+                <li>Family Guy</li>
+                <li>Friends</li>
+                <li>The Office</li>
+              </ul>
+              🎬</p>
+            <button class="motivation-btn" onclick="showMessage()">Click for Motivation</button>
+            <p id="message"></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Created by Dawud | 2025</p>
+    </footer>
+
+    <script src="scripts/myscript.js">
+
+  </script>
+</body>
+</html>
